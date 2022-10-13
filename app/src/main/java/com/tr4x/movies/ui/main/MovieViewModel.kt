@@ -85,7 +85,6 @@ data class UiState(
 
 sealed class UiModel {
     data class MovieItem(val movie: Movie) : UiModel()
-    data class SeparatorItem(val description: String) : UiModel()
 }
 
 private const val DEFAULT_QUERY = "Android"
